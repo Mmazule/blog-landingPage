@@ -1,0 +1,266 @@
+                                                                                            * {
+                                                                                            /* margin: 0; */
+                                                                                            padding: 0;
+                                                                                            box-sizing: border-box;
+                                                                                        }
+                                                                                        
+                                                                                        .header1 nav {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: space-between;
+                                                                                            padding: 0 4em;
+                                                                                            background: turquoise;
+                                                                                            /* border: 1px solid #000; */
+                                                                                        }
+                                                                                        
+                                                                                        .header1 nav ul {
+                                                                                            display: flex;
+                                                                                            justify-content: space-between;
+                                                                                            width: 30vw;
+                                                                                        }
+                                                                                        
+                                                                                        .header1 nav ul li {
+                                                                                            /* color: ; */
+                                                                                            text-decoration: none;
+                                                                                            list-style: none;
+                                                                                        }
+                                                                                        
+                                                                                        a {
+                                                                                            text-decoration: none;
+                                                                                            list-style: none;
+                                                                                        }
+                                                                                        
+                                                                                        .header1 button {
+                                                                                            width: 7em;
+                                                                                            height: 3em;
+                                                                                            border-radius: 2.5em;
+                                                                                            background-color: whitesmoke;
+                                                                                            border: none;
+                                                                                        }
+                                                                                        
+                                                                                        .header1 button:hover {
+                                                                                            color: turquoise;
+                                                                                        }
+                                                                                        
+                                                                                        .page-title {
+                                                                                            display: contents;
+                                                                                            align-items: center;
+                                                                                            justify-items: center;
+                                                                                        }
+                                                                                        
+                                                                                        .bus-name {
+                                                                                            align-items: center;
+                                                                                            justify-items: center;
+                                                                                            justify-content: space-around;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        
+                                                                                        .first-text {
+                                                                                            font-size: 20px;
+                                                                                            color: turquoise;
+                                                                                        }
+                                                                                        
+                                                                                        .second-text {
+                                                                                            font-style: italic;
+                                                                                        }
+                                                                                        /* background image */
+                                                                                        
+                                                                                        .landing {
+                                                                                            border: 1px solid #000;
+                                                                                            position: relative;
+                                                                                        }
+                                                                                        
+                                                                                        .landing-page {
+                                                                                            background-image: url("../images/IMG_20220804_003106.jpg");
+                                                                                            height: 100vh;
+                                                                                        }
+                                                                                        
+                                                                                        .landing-footer {
+                                                                                            height: 15vh;
+                                                                                            width: 96%;
+                                                                                            background-color: turquoise;
+                                                                                            margin: 1 auto;
+                                                                                            margin-bottom: 4em;
+                                                                                            position: absolute;
+                                                                                            top: 92%;
+                                                                                            left: 2%;
+                                                                                        }
+                                                                                        
+                                                                                        .landing-footer ul {
+                                                                                            height: inherit;
+                                                                                            display: grid;
+                                                                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                                                                        }
+                                                                                        
+                                                                                        .landing-footer ul li {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: center;
+                                                                                            font-size: 1.5rem;
+                                                                                            font-style: italic;
+                                                                                        }
+                                                                                        /* Popular posts */
+                                                                                        
+                                                                                        .posts {
+                                                                                            /* padding: ; */
+                                                                                            /* display: grid; */
+                                                                                            /* justify-content: center;
+                               align-items: center; */
+                                                                                            border: 1px solid #000;
+                                                                                        }
+                                                                                        
+                                                                                        .section-title {
+                                                                                            padding: 2em 2em;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-items: center;
+                                                                                            justify-content: center;
+                                                                                            font-size: 2em;
+                                                                                            color: turquoise;
+                                                                                        }
+                                                                                        
+                                                                                        .pop-posts {
+                                                                                            padding: 2em 0;
+                                                                                            display: grid;
+                                                                                            grid-template-columns: 1fr 1fr 1fr;
+                                                                                            justify-content: space-between;
+                                                                                        }
+                                                                                        /* Animation for popular posts */
+                                                                                        
+                                                                                        .post1,
+                                                                                        .post2,
+                                                                                        .post3 {
+                                                                                            padding: 0 2em;
+                                                                                            animation-name: popular-posts;
+                                                                                            animation-duration: 2s;
+                                                                                        }
+                                                                                        
+                                                                                        / .post2,
+                                                                                        .post3 {
+                                                                                            border-left: 1px solid rgb(62, 245, 220);
+                                                                                        }
+                                                                                        
+                                                                                        .first-pic {
+                                                                                            width: 20em;
+                                                                                            height: 25em;
+                                                                                        }
+                                                                                        
+                                                                                        .post-category {
+                                                                                            color: turquoise;
+                                                                                            font-style: italic;
+                                                                                            font-weight: bold;
+                                                                                        }
+                                                                                        
+                                                                                        .post-title {
+                                                                                            font-weight: bold;
+                                                                                        }
+                                                                                        
+                                                                                        .post-date {
+                                                                                            font-weight: bold;
+                                                                                        }
+                                                                                        /* Next page circles */
+                                                                                        
+                                                                                        .nextPage-circles {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: center;
+                                                                                            /* border: 1px solid #000; */
+                                                                                        }
+                                                                                        
+                                                                                        .circle {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: center;
+                                                                                            padding: 0 10px;
+                                                                                        }
+                                                                                        
+                                                                                        .circle:hover {
+                                                                                            /* color: white; */
+                                                                                        }
+                                                                                        
+                                                                                        .circle1,
+                                                                                        .circle2,
+                                                                                        .circle3,
+                                                                                        .circle4,
+                                                                                        .circle5 {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: center;
+                                                                                            border: 1px solid #000;
+                                                                                            height: 2em;
+                                                                                            width: 2em;
+                                                                                            border-radius: 100%;
+                                                                                            background-color: turquoise;
+                                                                                            border: none;
+                                                                                        }
+                                                                                        
+                                                                                        .posts>div:last-child button {
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            justify-content: center;
+                                                                                            margin: 0 40em;
+                                                                                        }
+                                                                                        
+                                                                                        .nextPage-button {
+                                                                                            /* border: 1px solid #000; */
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            margin: 1em 0;
+                                                                                        }
+                                                                                        
+                                                                                        .next-page {
+                                                                                            height: 4em;
+                                                                                            width: 9em;
+                                                                                            border-radius: 3em;
+                                                                                            background-color: #fff;
+                                                                                            border: 1px solid rgb(8, 235, 178);
+                                                                                        }
+                                                                                        
+                                                                                        .posts>div:last-child button:hover {
+                                                                                            color: turquoise;
+                                                                                        }
+                                                                                        /* Newsletter */
+                                                                                        
+                                                                                        .newsletter,
+                                                                                        .news {
+                                                                                            position: relative;
+                                                                                            background: paleturquoise;
+                                                                                            margin-bottom: 3em;
+                                                                                            /* float: left; */
+                                                                                        }
+                                                                                        
+                                                                                        .p1 {
+                                                                                            font-size: 30px;
+                                                                                            font-weight: bold;
+                                                                                            color: black;
+                                                                                        }
+                                                                                        
+                                                                                        .p2 {
+                                                                                            font-size: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        input {
+                                                                                            display: inline;
+                                                                                            margin: 0.7em 0;
+                                                                                            width: 10em;
+                                                                                            height: 2em;
+                                                                                            border: 1px solid rgb(14, 7, 0);
+                                                                                        }
+                                                                                        
+                                                                                        .news-submit {
+                                                                                            height: 2em;
+                                                                                            width: 10em;
+                                                                                            background-color: black;
+                                                                                            border: black;
+                                                                                            color: #fff;
+                                                                                            position: absolute;
+                                                                                            left: 5em;
+                                                                                            bottom: -2.5em;
+                                                                                        }
+                                                                                        
+                                                                                        .final-footer {
+                                                                                            background-color: #fdfffc;
+                                                                                            color: black;
+                                                                                            display: grid;
+                                                                                            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                                                                                            text-decoration: none;
